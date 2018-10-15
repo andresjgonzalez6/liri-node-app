@@ -1,7 +1,5 @@
 # liri-node-app
 
-GIVE INSTRUCTIONS ON HOW TO USE APP. 
-
 Instructions:
 
 Type in console/terminal- 
