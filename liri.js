@@ -6,10 +6,13 @@ var fs = require('fs');
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 var command = process.argv[2];
-var input;
-if (!process.argv[3] === undefined) {
-    var input = process.argv.slice(3).join(' ');
-}
+
+var input = process.argv.slice(3).join(' ');
+
+
+// console.log(process.argv[3]);
+console.log(input);
+
 runLiRi(command, input);
 function runLiRi(command, input) {
     switch (command) {
